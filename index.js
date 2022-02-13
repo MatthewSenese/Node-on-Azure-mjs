@@ -9,7 +9,7 @@ const server = http.createServer((request, response) => {
 
     // Standard Hello World.
     response.writeHead(200, {'Content-Type': 'text/html'});
-    response.write('<h3>Hello World! -- MJS</h3>')
+    response.write('<h3>Hello World! - MJS</h3>')
 
     // Access funcion from a separate JavaScript module.
     response.write("The date and time are currently: " + dt.myDateTime() + "<br><br>");
